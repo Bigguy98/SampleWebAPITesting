@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+OneForAll,,,,2023-10-13 23:52:20,2023-10-13 23:52:24,3.671s,PASSED
+,,,,,,,
+Test Cases/Bussiness/Success Login,,,,2023-10-13 23:52:20,2023-10-13 23:52:23,2.044s,PASSED
+"response = sendRequest(findTestObject(""Bussiness/Success Login""))",,,,2023-10-13 23:52:21,2023-10-13 23:52:23,1.806s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2023-10-13 23:52:23,2023-10-13 23:52:23,0.010s,PASSED
+,,,,,,,
+Test Cases/Manage User/Create User,,,,2023-10-13 23:52:23,2023-10-13 23:52:23,0.761s,PASSED
+"response = sendRequest(findTestObject(""Manage User/Create User""))",,,,2023-10-13 23:52:23,2023-10-13 23:52:23,0.557s,PASSED
+"verifyResponseStatusCode(response, 201)",,,,2023-10-13 23:52:23,2023-10-13 23:52:23,0.000s,PASSED
+"verifyElementPropertyValue(response, ""name"", ""morpheus"")",,,,2023-10-13 23:52:23,2023-10-13 23:52:23,0.035s,PASSED
+,,,,,,,
+Test Cases/Manage User/Update User,,,,2023-10-13 23:52:23,2023-10-13 23:52:24,0.706s,PASSED
+"response = sendRequest(findTestObject(""Manage User/Update User Info""))",,,,2023-10-13 23:52:23,2023-10-13 23:52:24,0.539s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2023-10-13 23:52:24,2023-10-13 23:52:24,0.001s,PASSED
